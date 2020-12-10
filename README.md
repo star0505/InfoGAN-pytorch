@@ -10,10 +10,17 @@ python data/downloads.py
 
 ### Run the script
 After you set the configuration of run script, run the script.
+I did set the learning rate of generator and discriminator ten times less than original learning rate.
+It was better to train the model.
 ```
 sh run.sh
 ```
 
 ### Experiments
-Generator is trained well like thie way.
+Generator is trained well like thie way.   
 ![Training Steps](all.gif)
+
+As manipulating the latent codes, I got this result.
+![Generated Images by manipulating Latent Code](manipulate100_lr0.1.jpg)
+
+
