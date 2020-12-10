@@ -13,3 +13,7 @@ After you set the configuration of run script, run the script.
 ```
 sh run.sh
 ```
+
+### Experiments
+Generator is trained well like thie way.
+![Training Steps](all.gif)
