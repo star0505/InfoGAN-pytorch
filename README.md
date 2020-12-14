@@ -9,10 +9,12 @@ python data/downloads.py
 ```
 
 ## Model archtecture
+### Generator (G)
 This below architecture is for the generator.
 There are transposed convolutional networks and linear networks using batch normalization with ReLU activation function.
 ![Generator](generator_architecture.PNG)
 
+### Discriminator (D)
 This below architecture is for the discriminator.
 There are convolutional networks and linear networks using batch normalization with leakyReLU activation functions.
 ![Discriminator](discriminator_architecture.PNG)
@@ -26,7 +28,7 @@ sh run.sh
 ```
 
 ## Experiments
-Generator is trained well like thie way.   
+Generator is trained well like this way.   
 ![Training Steps](all.gif)
 
 As manipulating the latent codes, I got this result.
